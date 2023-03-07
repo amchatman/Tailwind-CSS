@@ -513,9 +513,9 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-purple {
+.bg-green {
   --tw-bg-opacity: 1;
-  background-color: rgb(63 60 187 / var(--tw-bg-opacity));
+  background-color: rgb(19 206 102 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
@@ -527,7 +527,26 @@ video {
   font-weight: 700;
 }
 
-.text-midnight {
+.text-pink {
   --tw-text-opacity: 1;
-  color: rgb(18 16 99 / var(--tw-text-opacity));
+  color: rgb(255 73 219 / var(--tw-text-opacity));
+}
+
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(31 182 255 / var(--tw-text-opacity));
+}
+
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(132 146 166 / var(--tw-text-opacity));
+}
+
+.text-orange {
+  --tw-text-opacity: 1;
+  color: rgb(255 120 73 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
