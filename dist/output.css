@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -513,6 +513,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 60 187 / var(--tw-bg-opacity));
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -522,11 +527,7 @@ video {
   font-weight: 700;
 }
 
-.text-yellow-300 {
+.text-midnight {
   --tw-text-opacity: 1;
-  color: rgb(253 224 71 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
+  color: rgb(18 16 99 / var(--tw-text-opacity));
 }
