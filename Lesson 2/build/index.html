@@ -7,14 +7,23 @@
     <title>Nature</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-    <body class="min-h-screen bg-light dark:bg-dark dark:text-white">
-        <header class="bg-teal-700 text-white sticky top-0 z-10"></header>
-        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center
-        ">
-            <h1 class="text-3xl font-medium"> 
-              <a href="#hero">🌳 Nature.Esc </a>
-            </h1>
-        </section>
+    <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+        <header class="bg-zinc-800 text-white sticky top-0 z-10">
+            <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+                <h1 class="text-3xl font-medium"> 
+                <a href="#hero">🌳 Nature.Esc </a>
+                </h1>
+                <div id="mobile-menu" class="m-2.5">
+                    <button class="text-3xl sm:hidden">
+                        &#9776;
+                    </button>
+                    <nav class="hidden sm-block space-x-8 text-xl" aria-label="main">
+                        <a href="#nature" class="hover:opacity-90">Travel</a>
+                        <a href="#testominals" class="hover:opacity-90">Testominals</a>
+                        <a href="#contact" class="hover:opacity-90">Contact</a>
+                    </nav>
+                </div>
+            </section>
         </header>
 
     </body>
